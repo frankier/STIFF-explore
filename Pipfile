@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-plot = "*"
+jupyter = "*"
+ipykernel = "*"
+cihai = "*"
+mafan = {editable = true, ref = "3eaa26f609c9fd2f477f1b97af632cb4ffc3a8f1", git = "https://github.com/frankier/mafan.git"}
+pandas = "*"
+streamz = "*"
+stiff = {editable = true, ref = "7bc415c0722d5769cb5d7915c4a85b939233fe8c", git = "https://github.com/frankier/STIFF.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
