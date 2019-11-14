@@ -34,6 +34,7 @@ def plot(ax, stiff_data, eurosense_data, minor_ticks=1):
     xmax = np.ceil(xmax)
     ax.set_xlim([xmin, xmax])
     ax.set_ylim(0)
+    ax.set(xlabel='Instances', ylabel='Context length in tokens')
     xt = ax.get_xticks()
     s = ['%.0f' % abs(i) for i in xt]
     ax.set_xticklabels(s)
