@@ -1,4 +1,6 @@
-import stiff.fixes  # noqa: F401
+import stiff.data.fixes import fix_all
+
+fix_all()
 
 from nltk.corpus import wordnet
 
